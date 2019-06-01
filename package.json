@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "put": " webpack-dev-server --mode development",
     "start": "node server.js",
-    "build": "webpack --mode production",
     "heroku-postbuild": "webpack -p"
   },
   "keywords": [],
