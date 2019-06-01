@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "put": " webpack-dev-server --mode development",
     "start": "node server.js",
-    "heroku-postbuild": "webpack -p"
+    "heroku-postbuild": "webpack -- --mode production"
   },
   "keywords": [],
   "author": "",
